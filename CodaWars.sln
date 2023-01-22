@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Who_Likes_It", "Who_Likes_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_The_Parity_Outlier", "Find_The_Parity_Outlier\Find_The_Parity_Outlier.csproj", "{BF283F02-0538-4B38-A97A-23B047B37ABC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duplicate_Encoder", "Duplicate_Encoder\Duplicate_Encoder.csproj", "{FFA01FDE-3611-4550-BB69-2EA3C338C450}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA01FDE-3611-4550-BB69-2EA3C338C450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA01FDE-3611-4550-BB69-2EA3C338C450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA01FDE-3611-4550-BB69-2EA3C338C450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA01FDE-3611-4550-BB69-2EA3C338C450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
