@@ -11,6 +11,7 @@
       <ProjectReference Include="..\Price_Of_Mangoes\Price_Of_Mangoes.csproj" />
       <ProjectReference Include="..\Sum_Of_Digits\Sum_Of_Digits.csproj" />
       <ProjectReference Include="..\Unique_In_Order\Unique_In_Order.csproj" />
+      <ProjectReference Include="..\Who_Likes_It\Who_Likes_It.csproj" />
     </ItemGroup>
 
 </Project>
