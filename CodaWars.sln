@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Price_Of_Mangoes", "Price_O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique_In_Order", "Unique_In_Order\Unique_In_Order.csproj", "{AD140A8E-A56E-4972-913A-34B4C40F4187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_Of_Digits", "Sum_Of_Digits\Sum_Of_Digits.csproj", "{0BBE8414-91F5-4674-8C7F-811946582EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{AD140A8E-A56E-4972-913A-34B4C40F4187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD140A8E-A56E-4972-913A-34B4C40F4187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD140A8E-A56E-4972-913A-34B4C40F4187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBE8414-91F5-4674-8C7F-811946582EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBE8414-91F5-4674-8C7F-811946582EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBE8414-91F5-4674-8C7F-811946582EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBE8414-91F5-4674-8C7F-811946582EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

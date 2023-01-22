@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Price_Of_Mangoes\Price_Of_Mangoes.csproj" />
+      <ProjectReference Include="..\Sum_Of_Digits\Sum_Of_Digits.csproj" />
       <ProjectReference Include="..\Unique_In_Order\Unique_In_Order.csproj" />
     </ItemGroup>
 

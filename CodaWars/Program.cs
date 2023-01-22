@@ -1,6 +1,9 @@
-﻿using Unique_In_Order;
+﻿using Sum_Of_Digits;
 
-PrintCollection(Class1.UniqueInOrder("AAAABBBCCDAABBB"));
+Console.WriteLine(Number.DigitalRoot(16));
+Console.WriteLine(Number.DigitalRoot(942));
+Console.WriteLine(Number.DigitalRoot(132189));
+Console.WriteLine(Number.DigitalRoot(493193));
 
 static void PrintCollection<T>(IEnumerable<T> collection)
 {
