@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_Of_Digits", "Sum_Of_Dig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Who_Likes_It", "Who_Likes_It\Who_Likes_It.csproj", "{F7E61CB4-8192-4B5F-BF75-A58683FE61BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_The_Parity_Outlier", "Find_The_Parity_Outlier\Find_The_Parity_Outlier.csproj", "{BF283F02-0538-4B38-A97A-23B047B37ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F7E61CB4-8192-4B5F-BF75-A58683FE61BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E61CB4-8192-4B5F-BF75-A58683FE61BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E61CB4-8192-4B5F-BF75-A58683FE61BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF283F02-0538-4B38-A97A-23B047B37ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
