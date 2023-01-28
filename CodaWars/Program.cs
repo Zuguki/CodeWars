@@ -1,4 +1,6 @@
-﻿using Sum_Of_Digits;
+﻿using System;
+using System.Collections.Generic;
+using Sum_Of_Digits;
 
 Console.WriteLine(Number.DigitalRoot(16));
 Console.WriteLine(Number.DigitalRoot(942));

@@ -1,4 +1,7 @@
-﻿namespace Unique_In_Order;
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace Unique_In_Order;
  
  public static class Class1
  {
