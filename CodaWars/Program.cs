@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Sum_Of_Digits;
-
-Console.WriteLine(Number.DigitalRoot(16));
-Console.WriteLine(Number.DigitalRoot(942));
-Console.WriteLine(Number.DigitalRoot(132189));
-Console.WriteLine(Number.DigitalRoot(493193));
+using CodaWars._5kuy;
+using CodaWars._6kuy;
+using CodaWars._8kuy;
 
 static void PrintCollection<T>(IEnumerable<T> collection)
 {

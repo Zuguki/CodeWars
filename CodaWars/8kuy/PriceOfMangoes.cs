@@ -1,6 +1,6 @@
-﻿namespace Price_Of_Mangoes;
+﻿namespace CodaWars._8kuy;
 
-public static class Class1
+public static class PriceOfMangoes
 {
     public static int GetPriceForMango(int count, int price)
     {

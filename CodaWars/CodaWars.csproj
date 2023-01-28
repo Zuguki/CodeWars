@@ -15,4 +15,8 @@
       <ProjectReference Include="..\Sum_Of_Digits\Sum_Of_Digits.csproj" />
       <ProjectReference Include="..\Unique_In_Order\Unique_In_Order.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="1kuy" />
+    </ItemGroup>
 </Project>

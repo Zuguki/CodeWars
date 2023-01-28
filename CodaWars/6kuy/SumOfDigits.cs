@@ -1,6 +1,6 @@
-﻿namespace Sum_Of_Digits;
+﻿namespace CodaWars._6kuy;
 
-public abstract class Number
+public abstract class SumOfDigits
 {
     public static int DigitalRoot(long n)
     {

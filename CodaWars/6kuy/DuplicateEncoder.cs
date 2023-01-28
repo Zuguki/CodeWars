@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace Duplicate_Encoder;
+namespace CodaWars._6kuy;
 
-public class Kata
+public class DuplicateEncoder
 {
     public static string DuplicateEncode(string word)
     {

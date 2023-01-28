@@ -1,6 +1,6 @@
-﻿namespace Who_Likes_It;
+﻿namespace CodaWars._6kuy;
 
-public static class Kata
+public static class WhoLikesIt
 {
     public static string Likes(string[] names) =>
         names.Length switch

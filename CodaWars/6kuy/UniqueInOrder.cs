@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Unique_In_Order;
+namespace CodaWars._6kuy;
  
- public static class Class1
+ public static class UniqueInOrder
  {
-     public static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
+     public static IEnumerable<T> Unique<T>(IEnumerable<T> iterable)
      {
          var enumerable = iterable as T[] ?? iterable.ToArray();
          return enumerable

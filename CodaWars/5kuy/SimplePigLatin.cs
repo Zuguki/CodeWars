@@ -1,8 +1,8 @@
 ﻿using System.Text;
 
-namespace Simple_Pig_Latin;
+namespace CodaWars._5kuy;
 
-public class Kata
+public class SimplePigLatin
 {
     public static string PigIt(string str)
     {

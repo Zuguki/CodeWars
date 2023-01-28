@@ -1,6 +1,6 @@
-﻿namespace Find_The_Parity_Outlier;
+﻿namespace CodaWars._6kuy;
 
-public class Kata
+public class FindTheParityOutlier
 {
     public static int Find(int[] integers)
     {
