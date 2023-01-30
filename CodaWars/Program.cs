@@ -1,19 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using CodaWars._5kuy;
-using CodaWars._6kuy;
-using CodaWars._8kuy;
 
-Console.WriteLine(HumanReadableTime.GetReadableTime(0));
-Console.WriteLine(HumanReadableTime.GetReadableTime(5));
-Console.WriteLine(HumanReadableTime.GetReadableTime(60));
-Console.WriteLine(HumanReadableTime.GetReadableTime(86399));
-Console.WriteLine(HumanReadableTime.GetReadableTime(359999));
+DirectionsReduction.DirReduc(new[] {"NORTH", "WEST", "SOUTH", "EAST"}).PrintCollection();
 
-static void PrintCollection<T>(IEnumerable<T> collection)
+public static class EnumerableExt
 {
-    foreach (var item in collection)
-        Console.Write(item);
+    public static void PrintCollection<T>(this IEnumerable<T> collection)
+    {
+        Console.Write($"Items in collection: ");
+        foreach (var item in collection)
+            Console.Write(item + " ");
 
-    Console.WriteLine();
+        Console.WriteLine();
+    }
 }
+
+// public static class StringExt
+// {
+//     public static IEnumerable<string> RepeatToArray(this string str, int count)
+//     {
+//         var result = new List<string>();
+//         for (var index = 0; index < count; index++)
+//             result.Add(str);
+//
+//         return result;
+//     }
+// }

@@ -8,15 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Duplicate_Encoder\Duplicate_Encoder.csproj" />
-      <ProjectReference Include="..\Find_The_Parity_Outlier\Find_The_Parity_Outlier.csproj" />
-      <ProjectReference Include="..\Price_Of_Mangoes\Price_Of_Mangoes.csproj" />
-      <ProjectReference Include="..\Simple_Pig_Latin\Simple_Pig_Latin.csproj" />
-      <ProjectReference Include="..\Sum_Of_Digits\Sum_Of_Digits.csproj" />
-      <ProjectReference Include="..\Unique_In_Order\Unique_In_Order.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Folder Include="1kuy" />
     </ItemGroup>
 </Project>
