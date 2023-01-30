@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CodaWars._5kuy;
 
 DirectionsReduction.DirReduc(new[] {"NORTH", "WEST", "SOUTH", "EAST"}).PrintCollection();
 

@@ -1,9 +1,9 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public class DirectionsReduction
+namespace CodaWars._5kuy;
+
+public static class DirectionsReduction
 {
     private static readonly Dictionary<string, int> Sides = new()
         {{"NORTH", 1}, {"SOUTH", -1}, {"WEST", 2}, {"EAST", -2}};
@@ -29,4 +29,3 @@ public class DirectionsReduction
         return stack.Reverse().ToArray();
     }
 }
-
