@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using CodaWars._5kuy;
 
-DirectionsReduction.DirReduc(new[] {"NORTH", "WEST", "SOUTH", "EAST"}).PrintCollection();
+Console.WriteLine(RGBToHexConversion.Rgb(255, 255, 255));
+Console.WriteLine(RGBToHexConversion.Rgb(255, 255, 300));
+Console.WriteLine(RGBToHexConversion.Rgb(0, 0, 0));
+Console.WriteLine(RGBToHexConversion.Rgb(148, 0, 211));
 
 public static class EnumerableExt
 {
@@ -15,15 +18,3 @@ public static class EnumerableExt
         Console.WriteLine();
     }
 }
-
-// public static class StringExt
-// {
-//     public static IEnumerable<string> RepeatToArray(this string str, int count)
-//     {
-//         var result = new List<string>();
-//         for (var index = 0; index < count; index++)
-//             result.Add(str);
-//
-//         return result;
-//     }
-// }
