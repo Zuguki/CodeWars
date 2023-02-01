@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using CodaWars._4kuy;
 using CodaWars._5kuy;
 
-Console.WriteLine(RGBToHexConversion.Rgb(255, 255, 255));
-Console.WriteLine(RGBToHexConversion.Rgb(255, 255, 300));
-Console.WriteLine(RGBToHexConversion.Rgb(0, 0, 0));
-Console.WriteLine(RGBToHexConversion.Rgb(148, 0, 211));
+Console.WriteLine(HumanReadableDurationFormat.formatDuration(0));
+Console.WriteLine(HumanReadableDurationFormat.formatDuration(15731080));
+Console.WriteLine(HumanReadableDurationFormat.formatDuration(253374061));
 
 public static class EnumerableExt
 {
