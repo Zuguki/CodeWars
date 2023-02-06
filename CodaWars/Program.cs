@@ -1,11 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using CodaWars._3kuy;
 using CodaWars._4kuy;
 using CodaWars._5kuy;
 
+Console.WriteLine(NextBiggerNumberWithTheSameDigits.NextBiggerNumber(9));
+Console.WriteLine(NextBiggerNumberWithTheSameDigits.NextBiggerNumber(111));
+Console.WriteLine(NextBiggerNumberWithTheSameDigits.NextBiggerNumber(413));
+Console.WriteLine(NextBiggerNumberWithTheSameDigits.NextBiggerNumber(2017));
+
 Console.WriteLine();
-MakeSpiral.Spiralize(10).PrintDeepCollection();
+
+var str = "413";
+// NextBiggerNumberWithTheSameDigits.GetPermutation(str.ToCharArray(), 0, str.Length - 1);
+
+foreach (var arr in NextBiggerNumberWithTheSameDigits.GetPermutation(str.ToCharArray(), 0, str.Length - 1))
+{
+    Console.WriteLine(arr);
+}
 
 public static class EnumerableExt
 {
