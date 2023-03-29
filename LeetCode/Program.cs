@@ -1,6 +1,8 @@
-﻿using LeetCode.Eazy;
+﻿using System;
+using LeetCode.Eazy;
+using LeetCode.Medium;
 
-var instance = new MaximumNumberOfWordsFoudInSentences_2114();
+var instance = "01.01.01.01";
 
-var sentance = new[] {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
-Console.WriteLine(instance.MostWordsFound(sentance));
+var val = new ValidateIPAddress_468();
+Console.WriteLine(val.ValidIPAddress(instance));
