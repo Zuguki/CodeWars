@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using LeetCode.Eazy;
 using LeetCode.Medium;
 
-var str = "()[]{}";
-// awawawawegucawawawawegucawawawawegucawawawawegucawawawawegucawawawaweguc
+var str = "leet**cod*e";
 
-var dec = new ValidParentheses_20();
-Console.WriteLine(dec.IsValid(str));
+var dec = new RemovingStarsFromAString_2390();
+Console.WriteLine(dec.RemoveStars(str));
