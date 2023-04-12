@@ -4,7 +4,7 @@ using System.Text;
 using LeetCode.Eazy;
 using LeetCode.Medium;
 
-var str = "leet**cod*e";
+var str = "/a/./b/../../c/";
 
-var dec = new RemovingStarsFromAString_2390();
-Console.WriteLine(dec.RemoveStars(str));
+var dec = new SimplifyPath_71();
+Console.WriteLine(dec.SimplifyPath(str));
