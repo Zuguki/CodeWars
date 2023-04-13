@@ -5,6 +5,8 @@ using LeetCode.Eazy;
 using LeetCode.Medium;
 
 var str = "/a/./b/../../c/";
+var pushed = new[] {1,2,3,4,5};
+var popped = new[] {4,3,5,1,2};
 
-var dec = new SimplifyPath_71();
-Console.WriteLine(dec.SimplifyPath(str));
+var dec = new ValidateStackSequences_946();
+Console.WriteLine(dec.ValidateStackSequences(pushed, popped));
