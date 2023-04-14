@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using LeetCode.Eazy;
 using LeetCode.Medium;
 
-var str = "/a/./b/../../c/";
-var pushed = new[] {1,2,3,4,5};
-var popped = new[] {4,3,5,1,2};
+var str = "babbb";
 
-var dec = new ValidateStackSequences_946();
-Console.WriteLine(dec.ValidateStackSequences(pushed, popped));
+var dec = new LongestPalindromicSubsequence_516();
+Console.WriteLine(dec.LongestPalindromeSubseq(str));
