@@ -51,52 +51,35 @@ public class SmallestNumberInInfiniteSet_2336
 
 public class SmallestInfiniteSet
 {
-    private HashSet<int> removedItems;
-    private SortedSet<int> addedItems;
-    private int[] numbers;
+    private HashSet<int> hashSet;
+    private PriorityQueue<int, int> addedItems;
     private int counter;
 
     public SmallestInfiniteSet()
     {
-        removedItems = new HashSet<int>();
-        addedItems = new SortedSet<int>();
-        numbers = new int[2000];
+        hashSet = new HashSet<int>();
+        addedItems = new PriorityQueue<int, int>();
         counter = 1;
     }
 
     public int PopSmallest()
     {
-        if (counter >= numbers.Length)
-            numbers = ResizeArray(numbers);
-
         if (addedItems.Count > 0)
         {
-            var minItem = addedItems.Min;
-            numbers[minItem] = -1;
-            addedItems.Remove(minItem);
-            return minItem;
+            var item = addedItems.Dequeue();
+            hashSet.Remove(item);
+            return item;
         }
-        
-        numbers[counter] = -1;
+
         return counter++;
     }
 
     public void AddBack(int num)
     {
-        if (numbers[num] == 0)
+        if (counter < num || hashSet.Contains(num))
             return;
         
-        numbers[num] = 0;
-        addedItems.Add(num);
-    }
-
-    private int[] ResizeArray(int[] arr)
-    {
-        var newArray = new int[arr.Length * 2];
-
-        for (var index = 0; index < arr.Length; index++)
-            newArray[index] = arr[index];
-
-        return newArray;
+        addedItems.Enqueue(num, num);
+        hashSet.Add(num);
     }
 }
